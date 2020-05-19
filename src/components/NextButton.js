@@ -4,7 +4,6 @@ const NextButton = (props) => (
   <div>
     <button 
       className='next-button' onClick={props.nextPiece}>Next</button>
-    {0}
   </div>
 );
 

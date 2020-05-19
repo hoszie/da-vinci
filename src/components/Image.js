@@ -1,9 +1,10 @@
 import React from 'react';
-import images from '../artwork/images';
+import array from '../artwork/images';
 
-const Image = () => (
+const Image = (props) => (
   <main>
-    {images.map(({id, src, title}) => <img key={id} src={src} title={title} />)}
+    {/* {images.map(({id, src, title}) => <img key={id} src={src} title={title} />)} */}
+    {array[props.selectedOption]}
 
   </main>
 );

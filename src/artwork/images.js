@@ -25,4 +25,6 @@ const strings = [
   {title: 'Saint John the Bapist', year: '1500', medium: 'Oil on walnut wood'}
 ]; 
 
-export default images;
+const array = ['shit', 'piss', 'fuck'];
+
+export default array;
