@@ -10,7 +10,6 @@ export default class DaVinciApp extends React.Component {
   }
 
   nextPiece = () => {
-    console.log('fucking dumb dumb');
     const bitch = this.state.options++;
     console.log(this.state.options, 'state.options');
     this.setState(() => ({
